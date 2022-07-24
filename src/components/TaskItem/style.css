@@ -1,0 +1,26 @@
+.card {
+    height: 50px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    width: fit-content;
+    text-align: center;
+}
+.card-top {
+    border-bottom: 1px solid #323232;
+}
+.content {
+  border-radius: 10px;
+  border: 5px blue solid;
+}
+.draw-border {
+    box-shadow: inset 0 0 0 2px #2257e9;
+    color: #58afd1;
+    -webkit-transition: color 0.25s 0.0833333333s;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+  }
+ 
